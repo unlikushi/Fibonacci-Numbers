@@ -12,7 +12,7 @@ public class FibonacciNumberApplication {
 	}
 
 	public static void main(String[] args) {
-		int[] array = {8, 16, 34};
+		int[] array = {9, 16, 34};
 		for(int i = 0; i < array.length; i++){
 			if(isFibonacci(array[i])){
 				System.out.println(array[i] + " is a fibonacci number.");
